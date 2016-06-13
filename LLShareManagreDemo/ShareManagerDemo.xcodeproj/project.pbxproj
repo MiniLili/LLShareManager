@@ -7,17 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3E4D4EBC1D0E840100EFEA24 /* UIView+LLLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4D4EA31D0E840100EFEA24 /* UIView+LLLayoutConstraint.m */; };
-		3E4D4EBD1D0E840100EFEA24 /* UIViewController+TopestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4D4EA51D0E840100EFEA24 /* UIViewController+TopestViewController.m */; };
-		3E4D4EBE1D0E840100EFEA24 /* LLShareManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4D4EA71D0E840100EFEA24 /* LLShareManager.m */; };
-		3E4D4EBF1D0E840100EFEA24 /* shareManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3E4D4EA91D0E840100EFEA24 /* shareManager.bundle */; };
-		3E4D4EC01D0E840100EFEA24 /* GetMessageFromWXResp+responseWithTextOrMediaMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4D4EAE1D0E840100EFEA24 /* GetMessageFromWXResp+responseWithTextOrMediaMessage.m */; };
-		3E4D4EC11D0E840100EFEA24 /* SendMessageToWXReq+requestWithTextOrMediaMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4D4EB01D0E840100EFEA24 /* SendMessageToWXReq+requestWithTextOrMediaMessage.m */; };
-		3E4D4EC21D0E840100EFEA24 /* WXMediaMessage+messageConstruct.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4D4EB21D0E840100EFEA24 /* WXMediaMessage+messageConstruct.m */; };
-		3E4D4EC31D0E840100EFEA24 /* WXApiRequestHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4D4EB41D0E840100EFEA24 /* WXApiRequestHandler.m */; };
-		3E4D4EC41D0E840100EFEA24 /* WXApiResponseHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4D4EB61D0E840100EFEA24 /* WXApiResponseHandler.m */; };
-		3E4D4EC51D0E840100EFEA24 /* LLShareItemButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4D4EB91D0E840100EFEA24 /* LLShareItemButton.m */; };
-		3E4D4EC61D0E840100EFEA24 /* LLShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4D4EBB1D0E840100EFEA24 /* LLShareView.m */; };
+		3E7EB4E71D0E96AA002224D4 /* UIView+LLLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E7EB4CE1D0E96AA002224D4 /* UIView+LLLayoutConstraint.m */; };
+		3E7EB4E81D0E96AA002224D4 /* UIViewController+TopestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E7EB4D01D0E96AA002224D4 /* UIViewController+TopestViewController.m */; };
+		3E7EB4E91D0E96AA002224D4 /* LLShareManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E7EB4D21D0E96AA002224D4 /* LLShareManager.m */; };
+		3E7EB4EA1D0E96AA002224D4 /* shareManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3E7EB4D41D0E96AA002224D4 /* shareManager.bundle */; };
+		3E7EB4EB1D0E96AA002224D4 /* GetMessageFromWXResp+responseWithTextOrMediaMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E7EB4D91D0E96AA002224D4 /* GetMessageFromWXResp+responseWithTextOrMediaMessage.m */; };
+		3E7EB4EC1D0E96AA002224D4 /* SendMessageToWXReq+requestWithTextOrMediaMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E7EB4DB1D0E96AA002224D4 /* SendMessageToWXReq+requestWithTextOrMediaMessage.m */; };
+		3E7EB4ED1D0E96AA002224D4 /* WXMediaMessage+messageConstruct.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E7EB4DD1D0E96AA002224D4 /* WXMediaMessage+messageConstruct.m */; };
+		3E7EB4EE1D0E96AA002224D4 /* WXApiRequestHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E7EB4DF1D0E96AA002224D4 /* WXApiRequestHandler.m */; };
+		3E7EB4EF1D0E96AA002224D4 /* WXApiResponseHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E7EB4E11D0E96AA002224D4 /* WXApiResponseHandler.m */; };
+		3E7EB4F01D0E96AA002224D4 /* LLShareItemButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E7EB4E41D0E96AA002224D4 /* LLShareItemButton.m */; };
+		3E7EB4F11D0E96AA002224D4 /* LLShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E7EB4E61D0E96AA002224D4 /* LLShareView.m */; };
 		3EFEF9D71D0E48BE006EC98E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EFEF9D61D0E48BE006EC98E /* main.m */; };
 		3EFEF9DA1D0E48BE006EC98E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EFEF9D91D0E48BE006EC98E /* AppDelegate.m */; };
 		3EFEF9DD1D0E48BE006EC98E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EFEF9DC1D0E48BE006EC98E /* ViewController.m */; };
@@ -59,29 +59,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3E4D4EA21D0E840100EFEA24 /* UIView+LLLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LLLayoutConstraint.h"; sourceTree = "<group>"; };
-		3E4D4EA31D0E840100EFEA24 /* UIView+LLLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LLLayoutConstraint.m"; sourceTree = "<group>"; };
-		3E4D4EA41D0E840100EFEA24 /* UIViewController+TopestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+TopestViewController.h"; sourceTree = "<group>"; };
-		3E4D4EA51D0E840100EFEA24 /* UIViewController+TopestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+TopestViewController.m"; sourceTree = "<group>"; };
-		3E4D4EA61D0E840100EFEA24 /* LLShareManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLShareManager.h; sourceTree = "<group>"; };
-		3E4D4EA71D0E840100EFEA24 /* LLShareManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLShareManager.m; sourceTree = "<group>"; };
-		3E4D4EA81D0E840100EFEA24 /* LLShareManagerConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLShareManagerConfig.h; sourceTree = "<group>"; };
-		3E4D4EA91D0E840100EFEA24 /* shareManager.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = shareManager.bundle; sourceTree = "<group>"; };
-		3E4D4EAC1D0E840100EFEA24 /* Constant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
-		3E4D4EAD1D0E840100EFEA24 /* GetMessageFromWXResp+responseWithTextOrMediaMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GetMessageFromWXResp+responseWithTextOrMediaMessage.h"; sourceTree = "<group>"; };
-		3E4D4EAE1D0E840100EFEA24 /* GetMessageFromWXResp+responseWithTextOrMediaMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GetMessageFromWXResp+responseWithTextOrMediaMessage.m"; sourceTree = "<group>"; };
-		3E4D4EAF1D0E840100EFEA24 /* SendMessageToWXReq+requestWithTextOrMediaMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SendMessageToWXReq+requestWithTextOrMediaMessage.h"; sourceTree = "<group>"; };
-		3E4D4EB01D0E840100EFEA24 /* SendMessageToWXReq+requestWithTextOrMediaMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SendMessageToWXReq+requestWithTextOrMediaMessage.m"; sourceTree = "<group>"; };
-		3E4D4EB11D0E840100EFEA24 /* WXMediaMessage+messageConstruct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WXMediaMessage+messageConstruct.h"; sourceTree = "<group>"; };
-		3E4D4EB21D0E840100EFEA24 /* WXMediaMessage+messageConstruct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WXMediaMessage+messageConstruct.m"; sourceTree = "<group>"; };
-		3E4D4EB31D0E840100EFEA24 /* WXApiRequestHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiRequestHandler.h; sourceTree = "<group>"; };
-		3E4D4EB41D0E840100EFEA24 /* WXApiRequestHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXApiRequestHandler.m; sourceTree = "<group>"; };
-		3E4D4EB51D0E840100EFEA24 /* WXApiResponseHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiResponseHandler.h; sourceTree = "<group>"; };
-		3E4D4EB61D0E840100EFEA24 /* WXApiResponseHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXApiResponseHandler.m; sourceTree = "<group>"; };
-		3E4D4EB81D0E840100EFEA24 /* LLShareItemButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLShareItemButton.h; sourceTree = "<group>"; };
-		3E4D4EB91D0E840100EFEA24 /* LLShareItemButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLShareItemButton.m; sourceTree = "<group>"; };
-		3E4D4EBA1D0E840100EFEA24 /* LLShareView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLShareView.h; sourceTree = "<group>"; };
-		3E4D4EBB1D0E840100EFEA24 /* LLShareView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLShareView.m; sourceTree = "<group>"; };
+		3E7EB4CD1D0E96AA002224D4 /* UIView+LLLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LLLayoutConstraint.h"; sourceTree = "<group>"; };
+		3E7EB4CE1D0E96AA002224D4 /* UIView+LLLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LLLayoutConstraint.m"; sourceTree = "<group>"; };
+		3E7EB4CF1D0E96AA002224D4 /* UIViewController+TopestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+TopestViewController.h"; sourceTree = "<group>"; };
+		3E7EB4D01D0E96AA002224D4 /* UIViewController+TopestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+TopestViewController.m"; sourceTree = "<group>"; };
+		3E7EB4D11D0E96AA002224D4 /* LLShareManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLShareManager.h; sourceTree = "<group>"; };
+		3E7EB4D21D0E96AA002224D4 /* LLShareManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLShareManager.m; sourceTree = "<group>"; };
+		3E7EB4D31D0E96AA002224D4 /* LLShareManagerConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLShareManagerConfig.h; sourceTree = "<group>"; };
+		3E7EB4D41D0E96AA002224D4 /* shareManager.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = shareManager.bundle; sourceTree = "<group>"; };
+		3E7EB4D71D0E96AA002224D4 /* Constant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		3E7EB4D81D0E96AA002224D4 /* GetMessageFromWXResp+responseWithTextOrMediaMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GetMessageFromWXResp+responseWithTextOrMediaMessage.h"; sourceTree = "<group>"; };
+		3E7EB4D91D0E96AA002224D4 /* GetMessageFromWXResp+responseWithTextOrMediaMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GetMessageFromWXResp+responseWithTextOrMediaMessage.m"; sourceTree = "<group>"; };
+		3E7EB4DA1D0E96AA002224D4 /* SendMessageToWXReq+requestWithTextOrMediaMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SendMessageToWXReq+requestWithTextOrMediaMessage.h"; sourceTree = "<group>"; };
+		3E7EB4DB1D0E96AA002224D4 /* SendMessageToWXReq+requestWithTextOrMediaMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SendMessageToWXReq+requestWithTextOrMediaMessage.m"; sourceTree = "<group>"; };
+		3E7EB4DC1D0E96AA002224D4 /* WXMediaMessage+messageConstruct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WXMediaMessage+messageConstruct.h"; sourceTree = "<group>"; };
+		3E7EB4DD1D0E96AA002224D4 /* WXMediaMessage+messageConstruct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WXMediaMessage+messageConstruct.m"; sourceTree = "<group>"; };
+		3E7EB4DE1D0E96AA002224D4 /* WXApiRequestHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiRequestHandler.h; sourceTree = "<group>"; };
+		3E7EB4DF1D0E96AA002224D4 /* WXApiRequestHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXApiRequestHandler.m; sourceTree = "<group>"; };
+		3E7EB4E01D0E96AA002224D4 /* WXApiResponseHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiResponseHandler.h; sourceTree = "<group>"; };
+		3E7EB4E11D0E96AA002224D4 /* WXApiResponseHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXApiResponseHandler.m; sourceTree = "<group>"; };
+		3E7EB4E31D0E96AA002224D4 /* LLShareItemButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLShareItemButton.h; sourceTree = "<group>"; };
+		3E7EB4E41D0E96AA002224D4 /* LLShareItemButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLShareItemButton.m; sourceTree = "<group>"; };
+		3E7EB4E51D0E96AA002224D4 /* LLShareView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLShareView.h; sourceTree = "<group>"; };
+		3E7EB4E61D0E96AA002224D4 /* LLShareView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLShareView.m; sourceTree = "<group>"; };
 		3EFEF9D21D0E48BE006EC98E /* ShareManagerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShareManagerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EFEF9D61D0E48BE006EC98E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3EFEF9D81D0E48BE006EC98E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -153,65 +153,65 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3E4D4EA01D0E840100EFEA24 /* ShareManager */ = {
+		3E7EB4CB1D0E96AA002224D4 /* LLShareManager */ = {
 			isa = PBXGroup;
 			children = (
-				3E4D4EA11D0E840100EFEA24 /* Category */,
-				3E4D4EA61D0E840100EFEA24 /* LLShareManager.h */,
-				3E4D4EA71D0E840100EFEA24 /* LLShareManager.m */,
-				3E4D4EA81D0E840100EFEA24 /* LLShareManagerConfig.h */,
-				3E4D4EA91D0E840100EFEA24 /* shareManager.bundle */,
-				3E4D4EAA1D0E840100EFEA24 /* Util */,
-				3E4D4EB71D0E840100EFEA24 /* View */,
+				3E7EB4CC1D0E96AA002224D4 /* Category */,
+				3E7EB4D11D0E96AA002224D4 /* LLShareManager.h */,
+				3E7EB4D21D0E96AA002224D4 /* LLShareManager.m */,
+				3E7EB4D31D0E96AA002224D4 /* LLShareManagerConfig.h */,
+				3E7EB4D41D0E96AA002224D4 /* shareManager.bundle */,
+				3E7EB4D51D0E96AA002224D4 /* Util */,
+				3E7EB4E21D0E96AA002224D4 /* View */,
 			);
-			name = ShareManager;
-			path = ../../ShareManager;
+			name = LLShareManager;
+			path = ../../LLShareManager;
 			sourceTree = "<group>";
 		};
-		3E4D4EA11D0E840100EFEA24 /* Category */ = {
+		3E7EB4CC1D0E96AA002224D4 /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				3E4D4EA21D0E840100EFEA24 /* UIView+LLLayoutConstraint.h */,
-				3E4D4EA31D0E840100EFEA24 /* UIView+LLLayoutConstraint.m */,
-				3E4D4EA41D0E840100EFEA24 /* UIViewController+TopestViewController.h */,
-				3E4D4EA51D0E840100EFEA24 /* UIViewController+TopestViewController.m */,
+				3E7EB4CD1D0E96AA002224D4 /* UIView+LLLayoutConstraint.h */,
+				3E7EB4CE1D0E96AA002224D4 /* UIView+LLLayoutConstraint.m */,
+				3E7EB4CF1D0E96AA002224D4 /* UIViewController+TopestViewController.h */,
+				3E7EB4D01D0E96AA002224D4 /* UIViewController+TopestViewController.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
 		};
-		3E4D4EAA1D0E840100EFEA24 /* Util */ = {
+		3E7EB4D51D0E96AA002224D4 /* Util */ = {
 			isa = PBXGroup;
 			children = (
-				3E4D4EAB1D0E840100EFEA24 /* Helper */,
-				3E4D4EB31D0E840100EFEA24 /* WXApiRequestHandler.h */,
-				3E4D4EB41D0E840100EFEA24 /* WXApiRequestHandler.m */,
-				3E4D4EB51D0E840100EFEA24 /* WXApiResponseHandler.h */,
-				3E4D4EB61D0E840100EFEA24 /* WXApiResponseHandler.m */,
+				3E7EB4D61D0E96AA002224D4 /* Helper */,
+				3E7EB4DE1D0E96AA002224D4 /* WXApiRequestHandler.h */,
+				3E7EB4DF1D0E96AA002224D4 /* WXApiRequestHandler.m */,
+				3E7EB4E01D0E96AA002224D4 /* WXApiResponseHandler.h */,
+				3E7EB4E11D0E96AA002224D4 /* WXApiResponseHandler.m */,
 			);
 			path = Util;
 			sourceTree = "<group>";
 		};
-		3E4D4EAB1D0E840100EFEA24 /* Helper */ = {
+		3E7EB4D61D0E96AA002224D4 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
-				3E4D4EAC1D0E840100EFEA24 /* Constant.h */,
-				3E4D4EAD1D0E840100EFEA24 /* GetMessageFromWXResp+responseWithTextOrMediaMessage.h */,
-				3E4D4EAE1D0E840100EFEA24 /* GetMessageFromWXResp+responseWithTextOrMediaMessage.m */,
-				3E4D4EAF1D0E840100EFEA24 /* SendMessageToWXReq+requestWithTextOrMediaMessage.h */,
-				3E4D4EB01D0E840100EFEA24 /* SendMessageToWXReq+requestWithTextOrMediaMessage.m */,
-				3E4D4EB11D0E840100EFEA24 /* WXMediaMessage+messageConstruct.h */,
-				3E4D4EB21D0E840100EFEA24 /* WXMediaMessage+messageConstruct.m */,
+				3E7EB4D71D0E96AA002224D4 /* Constant.h */,
+				3E7EB4D81D0E96AA002224D4 /* GetMessageFromWXResp+responseWithTextOrMediaMessage.h */,
+				3E7EB4D91D0E96AA002224D4 /* GetMessageFromWXResp+responseWithTextOrMediaMessage.m */,
+				3E7EB4DA1D0E96AA002224D4 /* SendMessageToWXReq+requestWithTextOrMediaMessage.h */,
+				3E7EB4DB1D0E96AA002224D4 /* SendMessageToWXReq+requestWithTextOrMediaMessage.m */,
+				3E7EB4DC1D0E96AA002224D4 /* WXMediaMessage+messageConstruct.h */,
+				3E7EB4DD1D0E96AA002224D4 /* WXMediaMessage+messageConstruct.m */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
 		};
-		3E4D4EB71D0E840100EFEA24 /* View */ = {
+		3E7EB4E21D0E96AA002224D4 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				3E4D4EB81D0E840100EFEA24 /* LLShareItemButton.h */,
-				3E4D4EB91D0E840100EFEA24 /* LLShareItemButton.m */,
-				3E4D4EBA1D0E840100EFEA24 /* LLShareView.h */,
-				3E4D4EBB1D0E840100EFEA24 /* LLShareView.m */,
+				3E7EB4E31D0E96AA002224D4 /* LLShareItemButton.h */,
+				3E7EB4E41D0E96AA002224D4 /* LLShareItemButton.m */,
+				3E7EB4E51D0E96AA002224D4 /* LLShareView.h */,
+				3E7EB4E61D0E96AA002224D4 /* LLShareView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -241,8 +241,8 @@
 		3EFEF9D41D0E48BE006EC98E /* ShareManagerDemo */ = {
 			isa = PBXGroup;
 			children = (
+				3E7EB4CB1D0E96AA002224D4 /* LLShareManager */,
 				3EFEFA5A1D0E6084006EC98E /* Logo.jpg */,
-				3E4D4EA01D0E840100EFEA24 /* ShareManager */,
 				3EFEFA081D0E4920006EC98E /* lib */,
 				3EFEF9D81D0E48BE006EC98E /* AppDelegate.h */,
 				3EFEF9D91D0E48BE006EC98E /* AppDelegate.m */,
@@ -446,7 +446,7 @@
 				3EFEFA2C1D0E5061006EC98E /* TencentOpenApi_IOS_Bundle.bundle in Resources */,
 				3EFEF9E51D0E48BE006EC98E /* LaunchScreen.storyboard in Resources */,
 				3EFEFA5B1D0E6084006EC98E /* Logo.jpg in Resources */,
-				3E4D4EBF1D0E840100EFEA24 /* shareManager.bundle in Resources */,
+				3E7EB4EA1D0E96AA002224D4 /* shareManager.bundle in Resources */,
 				3EFEF9E21D0E48BE006EC98E /* Assets.xcassets in Resources */,
 				3EFEF9E01D0E48BE006EC98E /* Main.storyboard in Resources */,
 			);
@@ -521,19 +521,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E4D4EBD1D0E840100EFEA24 /* UIViewController+TopestViewController.m in Sources */,
-				3E4D4EC61D0E840100EFEA24 /* LLShareView.m in Sources */,
-				3E4D4EC11D0E840100EFEA24 /* SendMessageToWXReq+requestWithTextOrMediaMessage.m in Sources */,
+				3E7EB4E81D0E96AA002224D4 /* UIViewController+TopestViewController.m in Sources */,
+				3E7EB4F11D0E96AA002224D4 /* LLShareView.m in Sources */,
+				3E7EB4EC1D0E96AA002224D4 /* SendMessageToWXReq+requestWithTextOrMediaMessage.m in Sources */,
 				3EFEF9DD1D0E48BE006EC98E /* ViewController.m in Sources */,
-				3E4D4EBC1D0E840100EFEA24 /* UIView+LLLayoutConstraint.m in Sources */,
-				3E4D4EC41D0E840100EFEA24 /* WXApiResponseHandler.m in Sources */,
-				3E4D4EC01D0E840100EFEA24 /* GetMessageFromWXResp+responseWithTextOrMediaMessage.m in Sources */,
+				3E7EB4E71D0E96AA002224D4 /* UIView+LLLayoutConstraint.m in Sources */,
+				3E7EB4EF1D0E96AA002224D4 /* WXApiResponseHandler.m in Sources */,
+				3E7EB4EB1D0E96AA002224D4 /* GetMessageFromWXResp+responseWithTextOrMediaMessage.m in Sources */,
 				3EFEF9DA1D0E48BE006EC98E /* AppDelegate.m in Sources */,
-				3E4D4EC31D0E840100EFEA24 /* WXApiRequestHandler.m in Sources */,
-				3E4D4EC51D0E840100EFEA24 /* LLShareItemButton.m in Sources */,
-				3E4D4EC21D0E840100EFEA24 /* WXMediaMessage+messageConstruct.m in Sources */,
+				3E7EB4EE1D0E96AA002224D4 /* WXApiRequestHandler.m in Sources */,
+				3E7EB4F01D0E96AA002224D4 /* LLShareItemButton.m in Sources */,
+				3E7EB4ED1D0E96AA002224D4 /* WXMediaMessage+messageConstruct.m in Sources */,
 				3EFEF9D71D0E48BE006EC98E /* main.m in Sources */,
-				3E4D4EBE1D0E840100EFEA24 /* LLShareManager.m in Sources */,
+				3E7EB4E91D0E96AA002224D4 /* LLShareManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
