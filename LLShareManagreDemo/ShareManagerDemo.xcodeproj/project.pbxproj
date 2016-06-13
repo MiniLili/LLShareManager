@@ -18,6 +18,7 @@
 		3E7EB4EF1D0E96AA002224D4 /* WXApiResponseHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E7EB4E11D0E96AA002224D4 /* WXApiResponseHandler.m */; };
 		3E7EB4F01D0E96AA002224D4 /* LLShareItemButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E7EB4E41D0E96AA002224D4 /* LLShareItemButton.m */; };
 		3E7EB4F11D0E96AA002224D4 /* LLShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E7EB4E61D0E96AA002224D4 /* LLShareView.m */; };
+		3E7EB4F41D0EA87A002224D4 /* UIImage+LLSScaleImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E7EB4F31D0EA87A002224D4 /* UIImage+LLSScaleImage.m */; };
 		3EFEF9D71D0E48BE006EC98E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EFEF9D61D0E48BE006EC98E /* main.m */; };
 		3EFEF9DA1D0E48BE006EC98E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EFEF9D91D0E48BE006EC98E /* AppDelegate.m */; };
 		3EFEF9DD1D0E48BE006EC98E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EFEF9DC1D0E48BE006EC98E /* ViewController.m */; };
@@ -82,6 +83,8 @@
 		3E7EB4E41D0E96AA002224D4 /* LLShareItemButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLShareItemButton.m; sourceTree = "<group>"; };
 		3E7EB4E51D0E96AA002224D4 /* LLShareView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLShareView.h; sourceTree = "<group>"; };
 		3E7EB4E61D0E96AA002224D4 /* LLShareView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLShareView.m; sourceTree = "<group>"; };
+		3E7EB4F21D0EA87A002224D4 /* UIImage+LLSScaleImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+LLSScaleImage.h"; sourceTree = "<group>"; };
+		3E7EB4F31D0EA87A002224D4 /* UIImage+LLSScaleImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+LLSScaleImage.m"; sourceTree = "<group>"; };
 		3EFEF9D21D0E48BE006EC98E /* ShareManagerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShareManagerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EFEF9D61D0E48BE006EC98E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3EFEF9D81D0E48BE006EC98E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -175,6 +178,8 @@
 				3E7EB4CE1D0E96AA002224D4 /* UIView+LLLayoutConstraint.m */,
 				3E7EB4CF1D0E96AA002224D4 /* UIViewController+TopestViewController.h */,
 				3E7EB4D01D0E96AA002224D4 /* UIViewController+TopestViewController.m */,
+				3E7EB4F21D0EA87A002224D4 /* UIImage+LLSScaleImage.h */,
+				3E7EB4F31D0EA87A002224D4 /* UIImage+LLSScaleImage.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -531,6 +536,7 @@
 				3EFEF9DA1D0E48BE006EC98E /* AppDelegate.m in Sources */,
 				3E7EB4EE1D0E96AA002224D4 /* WXApiRequestHandler.m in Sources */,
 				3E7EB4F01D0E96AA002224D4 /* LLShareItemButton.m in Sources */,
+				3E7EB4F41D0EA87A002224D4 /* UIImage+LLSScaleImage.m in Sources */,
 				3E7EB4ED1D0E96AA002224D4 /* WXMediaMessage+messageConstruct.m in Sources */,
 				3EFEF9D71D0E48BE006EC98E /* main.m in Sources */,
 				3E7EB4E91D0E96AA002224D4 /* LLShareManager.m in Sources */,

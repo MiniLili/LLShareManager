@@ -18,6 +18,7 @@
 
 #import "LLShareView.h"
 #import "UIView+LLLayoutConstraint.h"
+#import "UIImage+LLSScaleImage.h"
 
 
 static const CGFloat TranslationY = 300.f;
@@ -60,23 +61,28 @@ static LLShareManager *_instance;
     });
     return _instance;
 }
+#pragma mark - getter setter
+- (void)setShareIcon:(UIImage *)shareIcon
+{
+    _shareIcon = [shareIcon LLSsaleImagetoKB:32];
+}
 
 #pragma mark - 注册
-
 #pragma mark qq注册
 - (void)registQQWithAppKey:(NSString *)appKey {
     [[TencentOAuth alloc]initWithAppId:appKey andDelegate:nil];
 }
-
+#pragma mark 微博注册
 - (void)registWeiboWithAppKey:(NSString *)appKey {
     [WeiboSDK registerApp:appKey];
 }
-
+#pragma mark 微信注册
 - (void)regitWechatWithAppKey:(NSString *)appKey {
     [WXApi registerApp:appKey];
 }
 
 
+#pragma mark -
 #pragma mark 回调处理
 - (BOOL)handleURL:(NSURL *)url {
     [self hideShareView];
@@ -162,13 +168,6 @@ static LLShareManager *_instance;
     [self showShareView];
 }
 
-#pragma mark - getter setter
-- (void)setShareIcon:(UIImage *)shareIcon
-{
-    if (shareIcon) {
-        _shareIcon = shareIcon;
-    }
-}
 
 
 #pragma mark - 试图效果
