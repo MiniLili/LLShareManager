@@ -1,0 +1,387 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		154CC3FDDA853C310C7F527FF09FBA78 /* Pods-ShareManagerDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D032F80B353D6E4B65473D4F902A973C /* Pods-ShareManagerDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		347C6F0AA255A3375B76D946545AD14D /* Pods-ShareManagerDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E44233184B1E5D40CFABC51E6CC0C94 /* Pods-ShareManagerDemo-dummy.m */; };
+		8DCB4A4CAFF605F7C67E3AD640813477 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		05F30BB85053F7AB53EA722E2CB9FA96 /* WeiboSDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = WeiboSDK.bundle; path = libWeiboSDK/WeiboSDK.bundle; sourceTree = "<group>"; };
+		085D3CA0C07AEFD1FD58DA47BB35AA16 /* WeiboUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WeiboUser.h; path = libWeiboSDK/WeiboUser.h; sourceTree = "<group>"; };
+		08F8855C0A168459A253897F0E36829A /* libWeiboSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeiboSDK.a; path = libWeiboSDK/libWeiboSDK.a; sourceTree = "<group>"; };
+		1E44233184B1E5D40CFABC51E6CC0C94 /* Pods-ShareManagerDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ShareManagerDemo-dummy.m"; sourceTree = "<group>"; };
+		20AF83E1FD55676D9DD0209373CCB1DB /* WBHttpRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WBHttpRequest.h; path = libWeiboSDK/WBHttpRequest.h; sourceTree = "<group>"; };
+		36939502BA026D547855213EDC312968 /* Pods-ShareManagerDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ShareManagerDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		443C5AD63FE6ADE7C0631F1A023E4356 /* Pods_ShareManagerDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShareManagerDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C755F1755CE66D5105A7B8A64D25533 /* WBHttpRequest+WeiboGame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WBHttpRequest+WeiboGame.h"; path = "libWeiboSDK/WBHttpRequest+WeiboGame.h"; sourceTree = "<group>"; };
+		51080CB10DD614C2496F899B7E683FBD /* Pods-ShareManagerDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ShareManagerDemo-frameworks.sh"; sourceTree = "<group>"; };
+		53A9A701C91E7EE1F83AD960AEE8C1FA /* WBHttpRequest+WeiboShare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WBHttpRequest+WeiboShare.h"; path = "libWeiboSDK/WBHttpRequest+WeiboShare.h"; sourceTree = "<group>"; };
+		58E7A6180FB6039F1A3766A83396371D /* Pods-ShareManagerDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ShareManagerDemo.modulemap"; sourceTree = "<group>"; };
+		7DA06ADD490617BB81857BBE0CE7EA24 /* Pods-ShareManagerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ShareManagerDemo.release.xcconfig"; sourceTree = "<group>"; };
+		91CBC4D4086A0C8A790C7D0F55E089DC /* WBSDKBasicButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WBSDKBasicButton.h; path = libWeiboSDK/WBSDKBasicButton.h; sourceTree = "<group>"; };
+		9F93FC048199570B4884151486797F25 /* WeiboSDK+Statistics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WeiboSDK+Statistics.h"; path = "libWeiboSDK/WeiboSDK+Statistics.h"; sourceTree = "<group>"; };
+		A173D340E1A1A7B5AE6142AF8B4891AC /* WBHttpRequest+WeiboUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WBHttpRequest+WeiboUser.h"; path = "libWeiboSDK/WBHttpRequest+WeiboUser.h"; sourceTree = "<group>"; };
+		A77FB2B315F4CAB8A13368C90327811E /* Pods-ShareManagerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ShareManagerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		AEFFC94A1088EDB8D6832033F55E8B25 /* WeiboSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WeiboSDK.h; path = libWeiboSDK/WeiboSDK.h; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C838ACE1B47A9F017C5F5A9A5FD87F12 /* Pods-ShareManagerDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ShareManagerDemo-resources.sh"; sourceTree = "<group>"; };
+		D032F80B353D6E4B65473D4F902A973C /* Pods-ShareManagerDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ShareManagerDemo-umbrella.h"; sourceTree = "<group>"; };
+		D461DD63820AE6C078FF782D92E9D23E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D92DA83616883CF123582EB383CAA301 /* WBSDKCommentButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WBSDKCommentButton.h; path = libWeiboSDK/WBSDKCommentButton.h; sourceTree = "<group>"; };
+		DA018CF987947A759E1489D789C7C9FC /* Pods-ShareManagerDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ShareManagerDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		E22401829DD85521C126ED6DBD3190C2 /* WBSDKRelationshipButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WBSDKRelationshipButton.h; path = libWeiboSDK/WBSDKRelationshipButton.h; sourceTree = "<group>"; };
+		F0E44E7D1ACCC765FB4A35E0474FBAEA /* WBHttpRequest+WeiboToken.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WBHttpRequest+WeiboToken.h"; path = "libWeiboSDK/WBHttpRequest+WeiboToken.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		715F9C862A4BB14101C64D4FCEB289AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DCB4A4CAFF605F7C67E3AD640813477 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0429E2F4895859D1F1C0EEE136EAB23A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D362B278AB420F2B678DC4B5AF16AD98 /* WeiboSDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		09EE4A6D1DA2C18E5C4A86E5DE09B976 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				05F30BB85053F7AB53EA722E2CB9FA96 /* WeiboSDK.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		1F0BC01074D3B9400EF5E2B393FE167B /* Pods-ShareManagerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D461DD63820AE6C078FF782D92E9D23E /* Info.plist */,
+				58E7A6180FB6039F1A3766A83396371D /* Pods-ShareManagerDemo.modulemap */,
+				36939502BA026D547855213EDC312968 /* Pods-ShareManagerDemo-acknowledgements.markdown */,
+				DA018CF987947A759E1489D789C7C9FC /* Pods-ShareManagerDemo-acknowledgements.plist */,
+				1E44233184B1E5D40CFABC51E6CC0C94 /* Pods-ShareManagerDemo-dummy.m */,
+				51080CB10DD614C2496F899B7E683FBD /* Pods-ShareManagerDemo-frameworks.sh */,
+				C838ACE1B47A9F017C5F5A9A5FD87F12 /* Pods-ShareManagerDemo-resources.sh */,
+				D032F80B353D6E4B65473D4F902A973C /* Pods-ShareManagerDemo-umbrella.h */,
+				A77FB2B315F4CAB8A13368C90327811E /* Pods-ShareManagerDemo.debug.xcconfig */,
+				7DA06ADD490617BB81857BBE0CE7EA24 /* Pods-ShareManagerDemo.release.xcconfig */,
+			);
+			name = "Pods-ShareManagerDemo";
+			path = "Target Support Files/Pods-ShareManagerDemo";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				0429E2F4895859D1F1C0EEE136EAB23A /* Pods */,
+				973C70F528B80BD28412B84B1BF70456 /* Products */,
+				AC8FED1E4D6158C16DD01EEFF3250CD1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		973C70F528B80BD28412B84B1BF70456 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				443C5AD63FE6ADE7C0631F1A023E4356 /* Pods_ShareManagerDemo.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC8FED1E4D6158C16DD01EEFF3250CD1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F0BC01074D3B9400EF5E2B393FE167B /* Pods-ShareManagerDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D362B278AB420F2B678DC4B5AF16AD98 /* WeiboSDK */ = {
+			isa = PBXGroup;
+			children = (
+				20AF83E1FD55676D9DD0209373CCB1DB /* WBHttpRequest.h */,
+				4C755F1755CE66D5105A7B8A64D25533 /* WBHttpRequest+WeiboGame.h */,
+				53A9A701C91E7EE1F83AD960AEE8C1FA /* WBHttpRequest+WeiboShare.h */,
+				F0E44E7D1ACCC765FB4A35E0474FBAEA /* WBHttpRequest+WeiboToken.h */,
+				A173D340E1A1A7B5AE6142AF8B4891AC /* WBHttpRequest+WeiboUser.h */,
+				91CBC4D4086A0C8A790C7D0F55E089DC /* WBSDKBasicButton.h */,
+				D92DA83616883CF123582EB383CAA301 /* WBSDKCommentButton.h */,
+				E22401829DD85521C126ED6DBD3190C2 /* WBSDKRelationshipButton.h */,
+				AEFFC94A1088EDB8D6832033F55E8B25 /* WeiboSDK.h */,
+				9F93FC048199570B4884151486797F25 /* WeiboSDK+Statistics.h */,
+				085D3CA0C07AEFD1FD58DA47BB35AA16 /* WeiboUser.h */,
+				E05341705F4A8525931A7B6A3399ED73 /* Frameworks */,
+				09EE4A6D1DA2C18E5C4A86E5DE09B976 /* Resources */,
+			);
+			path = WeiboSDK;
+			sourceTree = "<group>";
+		};
+		E05341705F4A8525931A7B6A3399ED73 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				08F8855C0A168459A253897F0E36829A /* libWeiboSDK.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5F3132551A344B3E3C82FEB8F1F56387 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				154CC3FDDA853C310C7F527FF09FBA78 /* Pods-ShareManagerDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		03A45D8F40278361636A602CE3BFD280 /* Pods-ShareManagerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C646E7327117D9FA3540403D3D0E578E /* Build configuration list for PBXNativeTarget "Pods-ShareManagerDemo" */;
+			buildPhases = (
+				E052255E1A6BF6DAFD7C4587D0407121 /* Sources */,
+				715F9C862A4BB14101C64D4FCEB289AF /* Frameworks */,
+				5F3132551A344B3E3C82FEB8F1F56387 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ShareManagerDemo";
+			productName = "Pods-ShareManagerDemo";
+			productReference = 443C5AD63FE6ADE7C0631F1A023E4356 /* Pods_ShareManagerDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 973C70F528B80BD28412B84B1BF70456 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03A45D8F40278361636A602CE3BFD280 /* Pods-ShareManagerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E052255E1A6BF6DAFD7C4587D0407121 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				347C6F0AA255A3375B76D946545AD14D /* Pods-ShareManagerDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4FDFCD3576975E026AA5073F989FEA50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A77FB2B315F4CAB8A13368C90327811E /* Pods-ShareManagerDemo.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ShareManagerDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ShareManagerDemo/Pods-ShareManagerDemo.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_ShareManagerDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7A929473269FF42F0DC4267FD25E016D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DA06ADD490617BB81857BBE0CE7EA24 /* Pods-ShareManagerDemo.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ShareManagerDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ShareManagerDemo/Pods-ShareManagerDemo.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_ShareManagerDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		FB45FFD90572718D82AB9092B750F0CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */,
+				FB45FFD90572718D82AB9092B750F0CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C646E7327117D9FA3540403D3D0E578E /* Build configuration list for PBXNativeTarget "Pods-ShareManagerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FDFCD3576975E026AA5073F989FEA50 /* Debug */,
+				7A929473269FF42F0DC4267FD25E016D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

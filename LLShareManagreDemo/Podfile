@@ -1,0 +1,5 @@
+platform :ios,’8.0’
+use_frameworks!
+target ‘ShareManagerDemo’ do
+pod 'WeiboSDK', :podspec => 'https://raw.githubusercontent.com/liu3399shuai/weibo_podspec/master/WeiboSDK.podspec'
+end
